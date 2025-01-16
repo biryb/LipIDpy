@@ -10,9 +10,9 @@ This is just a script, not a package.
 Download the script as well as LipidMatch rule-based lipid libraries. Create a virtual environment, and install dependencies via pip, conda, or alike.
 
 # Dependencies
-LipidMatch lipid libraries.\n
-Python 3.10.9 \n
-pandas 1.5.3 \n
-polars 1.5.0 \n
-pyteomics 4.6 \n
+LipidMatch lipid libraries.<br/> 
+Python 3.10.9 <br/>
+pandas 1.5.3 <br/>
+polars 1.5.0 <br/>
+pyteomics 4.6 <br/>
 

@@ -29,7 +29,7 @@ You can convert the raw mass spec data to .mgf's via MSConvert:
 ![image](https://github.com/user-attachments/assets/41167f3e-1844-4fc6-afae-ad7680747e7d)
 
 # Dependencies
-LipidMatch lipid libraries (supplied as a part of this repository)<br/> 
+LipidMatch lipid libraries (supplied as a part of this repository; credit to https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1744-3)<br/> 
 Python 3.10.9 <br/>
 polars 1.20.0 <br/>
 pyteomics 4.6 <br/>

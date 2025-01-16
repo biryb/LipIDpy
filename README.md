@@ -9,6 +9,10 @@ This is just a script, not a package.
 # Usage
 Download the script as well as LipidMatch rule-based lipid libraries. Create a virtual environment, and install dependencies via pip, conda, or alike.
 
+# Settings for MSConvert
+You can convert the raw mass spec data to .mgf's via MSConvert:
+![image](https://github.com/user-attachments/assets/41167f3e-1844-4fc6-afae-ad7680747e7d)
+
 # Dependencies
 LipidMatch lipid libraries.<br/> 
 Python 3.10.9 <br/>

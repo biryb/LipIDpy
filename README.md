@@ -6,6 +6,16 @@ This script will only use MS2 information from mgf files. It's recommended to us
 The script is agnostic to the mass spectrometry platform as it purely uses the detected fragments. No parameter optimization is required.
 This is just a script, not a package.
 
+# Parameters
+
+In rows 14-19, the user has to set a few parameters
+
+MP_additive - mobile phase additive in the analysis. This can be either "Formate" or "Acetate". A string value.</br>
+polarity - POS or NEG</br>
+dir_base - the absolute path to the folder where the script and data files are wrapped in r'path' (e.g. r'/Volumes/name/lipyd/')</br>
+mztol - this is to tolerance for mz in MS2 spectra, and dictates how much a detected fragment is allowed to deviate from the known exact value. I usually set this to 3.5 mmu (my instrument is QE HF-X at 60,000 resolution for MS2), but anything between 1.5-10 might be appropriate
+
+
 # Usage
 Download the script as well as LipidMatch rule-based lipid libraries. Create a virtual environment, and install dependencies via pip, conda, or alike.
 

@@ -7,14 +7,12 @@ The script is agnostic to the mass spectrometry platform as it purely uses the d
 This is just a script, not a package.
 
 # Usage
-Download the script as well as LipidMatch rule-based lipid libraries. Create a virtual environment, and install dependencies via pip, conda, or alike.
-
-# Setup
-After downloading the files, set up a folder called lipyd somewhere in the file system.</br>
+Download the script as well as LipidMatch rule-based lipid libraries. Unzip the LipidMatch libraries. After downloading the files, set up a folder called lipyd somewhere in the file system. 
 The folder is supposed to look like this:</br>
 
 ![image](https://github.com/user-attachments/assets/e1aafd89-6197-4527-9dde-8dc06c1b060f)
 
+Create a virtual environment, and install dependencies via pip, conda, or alike.
 
 # Parameters
 In rows 14-19 of the script, the user has to set a four parameters. If you're running an Orbitrap and your mobile phase contains ammonium formate, the only parameter you

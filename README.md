@@ -19,7 +19,7 @@ In rows 14-19 of the script, the user has to set a four parameters. If you're ru
 need to change is the file path (dir_base).</br>
 MP_additive - ammonium salt used in the analysis. This can be either "Formate" or "Acetate". A string value.</br>
 polarity - POS or NEG</br>
-dir_base - the absolute path to the folder where the script and data files are wrapped in r'path' (e.g. r'/Volumes/name/lipyd/')</br>
+dir_base - the absolute path to the folder where the script and data files are wrapped in r'path' (e.g. r'/Volumes/name/LipIDpy/')</br>
 mztol - this is the tolerance for mz in MS2 spectra, and dictates how much a detected fragment is allowed to deviate from the known exact value. I usually set this to 3.5 mmu (my instrument is QE HF-X at 60,000 resolution for MS2), but anything between 1.5-10 might be appropriate
 
 # Settings for MSConvert

@@ -1,4 +1,4 @@
-# lipyd
+# LipIDpy
 A script that produces an untargeted lipid library from one or multiple DDA files
 
 # Scope
@@ -7,10 +7,10 @@ The script is agnostic to the mass spectrometry platform as it purely uses the d
 This is just a script, not a package.
 
 # Usage
-Download the script as well as LipidMatch rule-based lipid libraries. Unzip the LipidMatch libraries. After downloading the files, set up a folder called lipyd somewhere in the file system. 
+Download the script as well as LipidMatch rule-based lipid libraries. Unzip the LipidMatch libraries. After downloading the files, set up a folder called LipIDpy somewhere in the file system. 
 The folder is supposed to look like this:</br>
 
-![image](https://github.com/user-attachments/assets/e1aafd89-6197-4527-9dde-8dc06c1b060f)
+<img width="415" alt="image" src="https://github.com/user-attachments/assets/321f4cb2-24cf-43fa-8eb5-39d3222ded7a" />
 
 Create a virtual environment, and install dependencies via pip, conda, or alike.
 

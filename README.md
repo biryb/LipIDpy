@@ -32,3 +32,6 @@ Python 3.10.9 <br/>
 polars 1.20.0 <br/>
 pyteomics 4.6 <br/>
 
+# Contact
+If you like this project, have questions/ideas, or would to chat, reach out to birgittaryback@gmail.com
+

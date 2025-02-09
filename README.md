@@ -28,7 +28,7 @@ If using Conda, open a terminal (Mac) or command line/powershell (Windows) and r
 
 ```bash
 conda create --name lipidpy python=3.11
-conda activate fipy
+conda activate lipidpy
 ```
 
 In Mac terminal, the prompt should appear as

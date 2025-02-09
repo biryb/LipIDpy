@@ -20,6 +20,7 @@ setup(
     entry_points={
         "console_scripts": [
             "lipidpy=LipIDpy.lipidpy:main",
+		    "utils = LipIDpy.utils:main"
         ]
     },
     classifiers=[

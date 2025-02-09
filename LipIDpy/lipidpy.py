@@ -4,7 +4,6 @@ import polars as pl
 from pyteomics import mgf
 import utils
 
-
 def main():
     # Parse arguments
     parser = argparse.ArgumentParser(description="Process MGF files in a given folder and save results.")

@@ -7,25 +7,47 @@ The script is agnostic to the mass spectrometry platform as it purely uses the d
 This is just a script, not a package or a command line tool. The script can be run in an IDE. Download it and open in VSCode or Spyder or alike.
 
 # Usage
+## Install from GitHub
 
-First, ensure you have Poetry installed. If not, install it:<br>
-Windows:
+To install the package directly from GitHub, run the following command:
 ```bash
-winget install Poetry.Poetry
-```
-Mac/Linux:
-```bash
-curl -sSL https://install.python-poetry.org | python3 -
+pip install git+https://github.com/biryb/LipIDpy.git
 ```
 
-Then, clone the repository:
+## Install from a Local Directory
+
+If you'd like to install from your local repository, download the repository, navigate to the folder containing the `setup.py` file and run:
 ```bash
-poetry add git+https://github.com/biryb/lipidpy.git
-```
-```bash
-poetry run lipidpy <path_mgf_files> <path_library_files>
+pip install .
 ```
 
+# Usage
+
+It's recommended to use a virtual environment to run LipIDpy.<br>
+If using Conda, open a terminal (Mac) or command line/powershell (Windows) and run the following commands:<br>
+
+```bash
+conda create --name lipidpy python=3.11
+conda activate fipy
+```
+
+In Mac terminal, the prompt should appear as
+```bash
+(lipidpy) id@macname lipidpy %                                                                         
+```
+
+Then run
+```bash
+pip install git+https://github.com/biryb/FIpy.git
+```
+to install LipIDpy.<br>
+
+That's it - you're ready to process samples. The basic usage is like this:
+
+```bash
+lipidpy <path_mgf_files> <path_lipid_library>
+```
+path_lipid_library is a path to the lipid library (formate or acetate) downloaded via this repo!
 
 # Parameters
 In rows 14-19 of the script, the user has to set four parameters. If you're running an Orbitrap and your mobile phase contains ammonium formate, the only parameter you

@@ -4,7 +4,6 @@ A command line tool that produces an untargeted lipid library from one or multip
 # Scope
 This script will only use MS2 information from mgf files. It's recommended to use the library produced by this script in conjunction with MS1 peak picking software, and the output file is directly compatible with mzmine4. It only works for experimental conditions where mobile phase contained ammonium formate or ammonium acetate.
 The script is agnostic to the mass spectrometry platform as it purely uses the detected fragments. No parameter optimization is required.
-This is just a script, not a package or a command line tool. The script can be run in an IDE. Download it and open in VSCode or Spyder or alike.
 
 # Usage
 ## Install from GitHub

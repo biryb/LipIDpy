@@ -2,6 +2,8 @@ import os
 import argparse
 import polars as pl
 from pyteomics import mgf
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import utils
 
 def main():

@@ -37,7 +37,7 @@ In Mac terminal, the prompt should appear as
 
 Then run
 ```bash
-pip install git+https://github.com/biryb/FIpy.git
+pip install git+https://github.com/biryb/LipIDpy.git
 ```
 to install LipIDpy.<br>
 

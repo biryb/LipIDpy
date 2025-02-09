@@ -49,8 +49,13 @@ lipidpy <path_mgf_files> <path_lipid_library>
 path_lipid_library is a path to the lipid library (formate or acetate) downloaded via this repo!
 
 # Parameters
-In rows 14-19 of the script, the user has to set four parameters. If you're running an Orbitrap and your mobile phase contains ammonium formate, the only parameter you
-need to change is the file path (dir_base).</br>
+If there's no parameters.txt in path_mgf_files/output, LipIDpy will create that file and halt execution. If you're OK with the pre-set parameters, just re-run the command 
+```bash
+lipidpy <path_mgf_files> <path_lipid_library>
+```
+And the program will execute.<br>
+There are minimal parameters and they should all be set to common sense defaults, but please review and modify parameters.txt if needed (you can use any text editor for that).<br>
+
 MP_additive - ammonium salt used in the analysis. This can be either "Formate" or "Acetate". A string value.</br>
 polarity - POS or NEG</br>
 dir_base - the absolute path to the folder where the script and data files are wrapped in r'path' (e.g. r'/Volumes/name/LipIDpy/')</br>

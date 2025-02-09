@@ -1,5 +1,5 @@
 # LipIDpy
-A script that produces an untargeted lipid library from one or multiple DDA files.
+A command line tool that produces an untargeted lipid library from one or multiple DDA files.
 
 # Scope
 This script will only use MS2 information from mgf files. It's recommended to use the library produced by this script in conjunction with MS1 peak picking software, and the output file is directly compatible with mzmine4. It only works for experimental conditions where mobile phase contained ammonium formate or ammonium acetate.
@@ -7,12 +7,25 @@ The script is agnostic to the mass spectrometry platform as it purely uses the d
 This is just a script, not a package or a command line tool. The script can be run in an IDE. Download it and open in VSCode or Spyder or alike.
 
 # Usage
-Download the script as well as LipidMatch rule-based lipid libraries. Unzip the LipidMatch libraries. After downloading the files, set up a folder called LipIDpy somewhere in the file system. 
-The folder is supposed to look like this:</br>
 
-<img width="415" alt="image" src="https://github.com/user-attachments/assets/321f4cb2-24cf-43fa-8eb5-39d3222ded7a" />
+First, ensure you have Poetry installed. If not, install it:<br>
+Windows:
+```bash
+winget install Poetry.Poetry
+```
+Mac/Linux:
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
 
-Create a virtual environment, and install dependencies via pip, conda, or alike.
+Then, clone the repository:
+```bash
+poetry add git+https://github.com/biryb/lipidpy.git
+```
+```bash
+poetry run lipidpy <path_mgf_files> <path_library_files>
+```
+
 
 # Parameters
 In rows 14-19 of the script, the user has to set four parameters. If you're running an Orbitrap and your mobile phase contains ammonium formate, the only parameter you
@@ -27,10 +40,9 @@ You can convert the raw mass spec data to .mgf's via MSConvert:
 ![image](https://github.com/user-attachments/assets/41167f3e-1844-4fc6-afae-ad7680747e7d)
 
 # Dependencies
-LipidMatch lipid libraries (supplied as a part of this repository; credit to https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1744-3)<br/> 
-Python 3.10.9 <br/>
-polars 1.20.0 <br/>
-pyteomics 4.6 <br/>
+LipidMatch lipid libraries (supplied as a part of this repository; credit to https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1744-3)<br> 
+Python 3.11.7 <br>
+Poetry 2.0.1<br>
 
 # Contact
 If you like this project, have questions/ideas, or would to chat, reach out to birgittaryback@gmail.com
